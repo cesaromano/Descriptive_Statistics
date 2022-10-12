@@ -1,0 +1,83 @@
+12/10/2022 09:50:28
+
+	** Estadistica descriptiva vs estadistica inferencial
+	
+	- registros de datos recolectados sobre areas especificas
+	
+	- sobre esos datos se pueden crear metricas resumidas para sacar conclusiones
+	
+	- se trata de resumir informacion
+	
+	- estadistica inferencial, obtener inferencias, predicciones de los datos obtenidos
+	
+	- es dificil obtener una definicion objetiva
+	
+	- estadisticos descriptivos pueden dar nociones diferentes de los mismos datos
+	
+	* argumentos a favor de la estadistica
+	
+	- siempre es de valor resumir grandes cantiades de informacion
+	
+	- ayuda a tomar mejores decisiones
+	
+	- reconocer patrones en los datos
+	
+	- tener un mejor criterio sobre tal o cual verdad
+	
+	** Flujo de trabajo en data science
+	
+	* preprocesamiento (estadistica descriptiva)
+	
+	- tipo de datos, pipeline de procesamiento
+	
+	- ingesta de datos y validacion
+	
+	* procesamiento (estadistica descriptiva)
+	
+	- analisis exploratorio, estadistica descriptiva, correlaciones, reducciones de datos
+	
+	- preparacion y entrenamiento del modelo
+	
+	* (estadistica inferencial)
+	
+	- evaluacion del modelo, produccion e interaccion final del usuario
+	
+	** Plan del curso
+	
+	* estadisticos para ingesta y procesamiento
+	
+	- tipos de datos (identificar los tipos de datos)
+	
+	- pipeline de procesamiento
+	
+	* estadisticos para analitica y exploracion
+	
+	- analisis exploratorio
+	
+	- correlaciones
+	
+	- reducciones de datos
+	
+	** Tipos de datos
+	
+	* datos categoricos (pandas: object or bool)
+	
+	  genero, categoria de pelicula, metodo de pago, etc
+	
+	- ordinal, existe relacion de orden entre las categorias
+	
+	- nominal, no existe relacion de orden entre categorias
+	
+	* datos numericos
+	
+	  edad, altura, temperatura
+	  
+	- discretos, numeros enteros (pandas: int64)
+	
+	- continuo, numeros reales (pandas: float64)
+	
+	* pandas
+	
+	- df.describe(), conjunto fundamental de estadisticos descriptivos, cada fila representa un estadisticos
+	
+	
